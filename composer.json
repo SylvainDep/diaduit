@@ -1,0 +1,12 @@
+{
+    "name": "sylvain/diaduit",
+    "authors": [
+        {
+            "name": "Sylvain Depardieu",
+            "email": "sylvaindepardieu78@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
