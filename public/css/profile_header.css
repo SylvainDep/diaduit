@@ -1,0 +1,70 @@
+.hero_area {
+  height: 320px;
+  background: url(../img/timeline.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.profile_data {
+  margin-top: -80px;
+  margin-bottom: 10px;
+}
+
+.profile_data .main_wrapper {
+  padding: 0 40px;
+  display: flex;
+}
+
+.user_avatar div {
+  width: 200px;
+}
+
+.user_avatar img {
+  width: 100%;
+  border: 8px solid rgba(255, 255, 255, 0.8);
+  border-radius: 3px 25px 0;
+  box-shadow: 0 1px 0 #e1e8ed;
+}
+
+.user_interactions {
+  width: 100%;
+}
+
+.request_exchange {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.request_exchange span {
+  color: white;
+  margin-right: 20px;
+  text-shadow: 0 2px 0 #4a4a4a;
+}
+
+.add {
+  background: #088dcd;
+  padding: 8px 20px;
+  color: white;
+  border-width: 0px;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.user_interactions h1 {
+  margin-left: 30px;
+}
+
+.user_interactions ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+.user_interactions ul li:not(:last-child) {
+  margin-right: 30px;
+}
